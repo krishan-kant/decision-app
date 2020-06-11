@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Krishan Kant",
   "license": "MIT",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "serve": "live-server public/",
     "build": "webpack --mode=production --env production",
